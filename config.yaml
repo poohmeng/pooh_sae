@@ -1,0 +1,11 @@
+
+name: pooh
+version: 2
+
+libraries:
+- name: "django"
+  version: "1.4"
+
+handlers:
+- url: /static
+  static_dir: static
